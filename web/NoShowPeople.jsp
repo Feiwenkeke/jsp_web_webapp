@@ -49,7 +49,7 @@
     if ((name==null)||(name.equals(""))||(name.length() == 0) || (name.length() > 10)) {
 %>
 
-    <jsp:forward page="inputName.jsp"></jsp:forward>
+    <jsp:forward page="ch2_inputName.jsp"></jsp:forward>
 <%
     }
     judge();

@@ -22,7 +22,7 @@
         <table id="table1">
             <tr id="tr1">
                 <td>
-                    <a class="a1" href="one.jsp">one.jsp</a>
+                    <a class="a1" href="ch2_one.jsp">one.jsp</a>
                 </td>
                 <td>
                     <a class="a1" href="NoShowTwo.jsp">two.jsp</a>

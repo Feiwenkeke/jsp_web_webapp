@@ -43,13 +43,13 @@
 </jsp:forward>
 <% } else if (n > 100) {
 %>
-<jsp:forward page="error.jsp">
+<jsp:forward page="ch2_error.jsp">
     <jsp:param name="mess" value="<%= n %>"></jsp:param>
 </jsp:forward>
 <% }
 } catch (Exception e) {
 %>
-<jsp:forward page="error.jsp">
+<jsp:forward page="ch2_error.jsp">
     <jsp:param name="mess" value="<%= e.toString()  %>"></jsp:param>
 </jsp:forward>
 <% }

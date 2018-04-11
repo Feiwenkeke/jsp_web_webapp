@@ -8,6 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@page language="java" import="tools.showDirContent"%>
 <%@ page import="java.util.List" %>
+<%@ page import="java.util.Collections" %>
 <html>
 <head>
     <title>首页</title>
@@ -52,12 +53,15 @@
                     int count =0;
                     showdircontent.iteratorPath(absPath);
                     List<String> pathName =showdircontent.getPathName();
+
+                    Collections.sort(pathName);
                     for (String list : pathName) {
 
                         if (list.contains(".jsp")){
 
 //                System.out.println(list);
 //                            NoShow index过滤
+
                             if (!(list.contains("NoShow"))&&!(list.contains("index"))){
                                 count++;
                                 out.print("<tr class=\"my_line\">" +
