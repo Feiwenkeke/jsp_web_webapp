@@ -57,6 +57,7 @@
                         if (list.contains(".jsp")){
 
 //                System.out.println(list);
+//                            NoShow index过滤
                             if (!(list.contains("NoShow"))&&!(list.contains("index"))){
                                 count++;
                                 out.print("<tr class=\"my_line\">" +
