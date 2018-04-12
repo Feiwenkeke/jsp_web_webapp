@@ -31,14 +31,14 @@
         int n = Integer.parseInt(num);
         if (n >= 1 && n <= 50) {
 %>
-<jsp:forward page="NoShowTwo.jsp">
+<jsp:forward page="ch2_Two_NoShow.jsp">
     <jsp:param name="number" value="<%= n %>"></jsp:param>
 </jsp:forward>
 <%
 } else if (n > 50 && n <= 100) {
 
 %>
-<jsp:forward page="NoShowThree.jsp">
+<jsp:forward page="ch2_Three_NoShow.jsp">
     <jsp:param name="number" value="<%= n %>"></jsp:param>
 </jsp:forward>
 <% } else if (n > 100) {

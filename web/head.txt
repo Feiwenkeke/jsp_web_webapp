@@ -22,13 +22,13 @@
         <table id="table1">
             <tr id="tr1">
                 <td>
-                    <a class="a1" href="ch2_one.jsp">one.jsp</a>
+                    <a class="a1" href="ch2_One.jsp">one.jsp</a>
                 </td>
                 <td>
-                    <a class="a1" href="NoShowTwo.jsp">two.jsp</a>
+                    <a class="a1" href="ch2_Two_NoShow.jsp">two.jsp</a>
                 </td>
                 <td>
-                    <a class="a1" href="NoShowThree.jsp">three.jsp</a>
+                    <a class="a1" href="ch2_Three_NoShow.jsp">three.jsp</a>
                 </td>
             </tr>
         </table>

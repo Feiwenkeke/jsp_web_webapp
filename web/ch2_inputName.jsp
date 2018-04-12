@@ -22,7 +22,7 @@
     </style>
 </head>
 <body>
-<form action="NoShowPeople.jsp" method="get" name="form">
+<form action="ch2_People_NoShow.jsp" method="get" name="form">
     请输入你的名字：
     <input type="text" name="name">
     </br>
