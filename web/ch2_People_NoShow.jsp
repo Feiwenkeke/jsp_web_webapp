@@ -22,6 +22,9 @@
     </style>
 </head>
 <body>
+<%
+    request.setCharacterEncoding("UTF-8");
+%>
 <%!
     int count;
     StringBuffer personList;
