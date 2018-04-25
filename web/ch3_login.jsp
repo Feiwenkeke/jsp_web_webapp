@@ -9,14 +9,11 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>ch3_login</title>
     <script src="https://cdn.bootcss.com/vue/2.5.17-beta.0/vue.js"></script>
     <script src="https://cdn.bootcss.com/element-ui/2.3.6/index.js"></script>
     <link href="https://cdn.bootcss.com/element-ui/2.3.6/theme-chalk/index.css" rel="stylesheet">
     <style type="text/css">
-        .header {
-
-        }
 
         .box-card {
             width: 400px;
@@ -35,13 +32,18 @@
 <body>
 <div id="app">
     <el-card class="box-card item">
-        <div class="header">
-            <a href="ch3_login.jsp">登陆</a>
-            /
-            <a href="ch3_show.jsp">看图</a>
-            /
-            <a href="ch3_exit.jsp">退出</a>
-        </div>
+        <el-menu :default-active="activeIndex" class="el-menu-demo" mode="horizontal">
+            <el-menu-item index="1" @click="login">登陆</el-menu-item>
+            <el-menu-item index="2" @click="show">看图</el-menu-item>
+            <el-menu-item index="3" @click="exit">退出</el-menu-item>
+        </el-menu>
+        <%--<div class="header">--%>
+        <%--<a href="ch3_login.jsp">登陆</a>--%>
+        <%--/--%>
+        <%--<a href="ch3_show.jsp">看图</a>--%>
+        <%--/--%>
+        <%--<a href="ch3_exit.jsp">退出</a>--%>
+        <%--</div>--%>
 
         <div>
             <form action="" method="post" name="form">
@@ -56,6 +58,22 @@
 <script>
     new Vue({
         el: '#app',
+        data() {
+            return {
+                activeIndex: '1'
+            };
+        },
+        methods: {
+            login() {
+                window.location.href = 'ch3_login.jsp';
+            },
+            show() {
+                window.location.href = 'ch3_show.jsp';
+            },
+            exit() {
+                window.location.href = 'ch3_exit.jsp';
+            }
+        }
 
     })
 </script>

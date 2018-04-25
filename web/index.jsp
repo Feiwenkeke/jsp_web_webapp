@@ -35,7 +35,7 @@
                 <thead>
                 <tr>
                     <th>#</th>
-                    <th>JSP-name</th>
+                    <th><a href="https://github.com/Feiwenkeke/jsp_web_webapp">Github</a></th>
 
                 </tr>
                 </thead>

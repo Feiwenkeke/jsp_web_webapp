@@ -19,7 +19,7 @@
             background: yellow;
         }
         #table-show{
-            border: 1px;
+            border: 1px solid black;
         }
     </style>
 </head>
