@@ -10,9 +10,30 @@
         <servlet-class>controller.Decompose</servlet-class>
     </servlet>
 
+    <servlet>
+        <servlet-name>postman</servlet-name>
+        <servlet-class>controller.PostMan</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>handle</servlet-name>
+        <servlet-class>controller.HandleData</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>handle</servlet-name>
+        <url-pattern>/handleData</url-pattern>
+    </servlet-mapping>
+
+
     <servlet-mapping>
         <servlet-name>word</servlet-name>
         <url-pattern>/word</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>postman</servlet-name>
+        <url-pattern>/postman</url-pattern>
     </servlet-mapping>
 </web-app>
 
