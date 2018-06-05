@@ -9,7 +9,7 @@
 <%
     request.setCharacterEncoding("UTF-8");
 %>
-<jsp:useBean id="car" class="pojo.Car" scope="session"></jsp:useBean>
+<jsp:useBean id="car" class="pojo.Car" scope="session"/>
 <html>
 <head>
     <title>ch4_input</title>
@@ -26,7 +26,7 @@
             <input type="submit" value="提交">
         </form>
     </div>
-<jsp:setProperty name="car" property="*"></jsp:setProperty>
+<jsp:setProperty name="car" property="*"/>
     <a href="ch4_show.jsp">访问 ch4_show.jsp 查看</a>
 </body>
 </html>

@@ -10,7 +10,7 @@
     request.setCharacterEncoding("UTF-8");
 %>
 <%@ page import="pojo.Car" %>
-<jsp:useBean id="car" class="pojo.Car" scope="session"></jsp:useBean>
+<jsp:useBean id="car" class="pojo.Car" scope="session"/>
 
 <html>
 <head>
@@ -24,9 +24,9 @@
             <th>汽车生产日期</th>
         </tr>
         <tr>
-            <td><jsp:getProperty name="car" property="number"></jsp:getProperty></td>
-            <td><jsp:getProperty name="car" property="name"></jsp:getProperty></td>
-            <td><jsp:getProperty name="car" property="madeTime"></jsp:getProperty></td>
+            <td><jsp:getProperty name="car" property="number"/></td>
+            <td><jsp:getProperty name="car" property="name"/></td>
+            <td><jsp:getProperty name="car" property="madeTime"/></td>
         </tr>
     </table>
 </body>

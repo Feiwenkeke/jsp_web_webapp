@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <jsp:include page="head.txt"></jsp:include>
+    <jsp:include page="head.txt"/>
     <style type="text/css">
         body {
             bgcolor: yellow;

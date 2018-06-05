@@ -9,7 +9,7 @@
 <html>
 <head>
     <title>two.jsp</title>
-    <jsp:include page="head.txt"></jsp:include>
+    <jsp:include page="head.txt"/>
     <style type="text/css">
         body{
             background-color: yellow;

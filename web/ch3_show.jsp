@@ -9,6 +9,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
+    <meta name="referrer" content="no-referrer"/>
     <title>ch3_show</title>
     <script src="https://cdn.bootcss.com/vue/2.5.17-beta.0/vue.js"></script>
     <script src="https://cdn.bootcss.com/element-ui/2.3.6/index.js"></script>
