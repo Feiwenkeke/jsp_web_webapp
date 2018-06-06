@@ -20,10 +20,21 @@
         <servlet-class>controller.HandleData</servlet-class>
     </servlet>
 
+
     <servlet>
         <servlet-name>handleArea</servlet-name>
         <servlet-class>controller.HandleArea</servlet-class>
     </servlet>
+
+    <servlet>
+        <servlet-name>ExServlet</servlet-name>
+        <servlet-class>controller.ExServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ExServlet</servlet-name>
+        <url-pattern>/ExServlet</url-pattern>
+    </servlet-mapping>
 
     <servlet-mapping>
         <servlet-name>handleArea</servlet-name>
